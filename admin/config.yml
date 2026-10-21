@@ -3,7 +3,7 @@ backend:
   branch: main
 
 media_folder: "website/images"
-public_folder: "/images"
+public_folder: "website/images"
 
 collections:
   - name: "catalog"
@@ -16,11 +16,12 @@ collections:
           - name: "products"
             label: "Products List"
             widget: "list"
+            summary: '{{fields.title}} - {{fields.price}}'
             fields:
               - {label: "ID", name: "id", widget: "number"}
               - {label: "Title", name: "title", widget: "string"}
               - {label: "Category", name: "category", widget: "select", options: [{label: "Woodcarving", value: "woodcarving"}, {label: "Laser Engraving", value: "laser"}, {label: "Artworks & Resin", value: "artworks"}]}
               - {label: "Price (e.g. GH₵ 1,500)", name: "price", widget: "string"}
-              - {label: "Image URL", name: "image", widget: "string"}
+              - {label: "Product Image", name: "image", widget: "image"}
               - {label: "Description", name: "description", widget: "text"}
               - {label: "Specifications", name: "specs", widget: "string"}
