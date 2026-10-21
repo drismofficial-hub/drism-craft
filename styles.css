@@ -1,0 +1,68 @@
+@import "https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap";
+
+:root {
+  --wood-dark: #2c1810;
+  --wood-medium: #4a2e1b;
+  --wood-light: #8c5830;
+  --accent-gold: #d4a373;
+  --cream-bg: #fdfbf7;
+  --card-bg: #ffffff;
+  --text-main: #2b2b2b;
+  --text-muted: #6b6b6b;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: var(--cream-bg);
+  color: var(--text-main);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, .font-serif {
+  font-family: 'Playfair Display', serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--cream-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--wood-light);
+  border-radius: 4px;
+}
+
+/* Modal Animation */
+.modal-overlay {
+  backdrop-filter: blur(6px);
+  background-color: rgba(44, 24, 16, 0.6);
+  transition: opacity 0.3s ease;
+}
+
+/* Floating WhatsApp Button Pulse */
+@keyframes pulse-whatsapp {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+
+.whatsapp-float {
+  animation: pulse-whatsapp 2s infinite;
+}
+
+/* Product Card Hover Effects */
+.product-card {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 25px -5px rgba(74, 46, 27, 0.12), 0 10px 10px -5px rgba(74, 46, 27, 0.04);
+}

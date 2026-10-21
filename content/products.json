@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Hand-Carved Walnut Tree of Life",
+      "category": "woodcarving",
+      "price": "GH₵ 3,500",
+      "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80",
+      "description": "Intricately hand-carved wall art made from solid black American walnut, finished with natural organic oils.",
+      "specs": "Dimensions: 18\" x 18\" • Material: Solid Walnut • Finish: Beeswax & Linseed Oil"
+    },
+    {
+      "id": 2,
+      "title": "Custom Laser-Engraved Oak Whiskey Barrel Head",
+      "category": "laser",
+      "price": "GH₵ 2,400",
+      "image": "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=800&q=80",
+      "description": "Authentic bourbon barrel head custom engraved with your family crest, name, and established date.",
+      "specs": "Dimensions: 21\" Diameter • Material: White Oak • Custom Text Included"
+    },
+    {
+      "id": 3,
+      "title": "Abstract Wood & Resin Sculpture",
+      "category": "artworks",
+      "price": "GH₵ 4,200",
+      "image": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=800&q=80",
+      "description": "A stunning fusion of salvaged burl wood and oceanic blue epoxy resin, mounted on a minimalist steel stand.",
+      "specs": "Dimensions: 14\" x 10\" x 6\" • Material: Burl Wood & Resin"
+    },
+    {
+      "id": 4,
+      "title": "Personalized Laser-Cut Wooden World Map",
+      "category": "laser",
+      "price": "GH₵ 2,800",
+      "image": "https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=800&q=80",
+      "description": "Layered topographic 3D wooden world map, precision laser-engraved with country borders and capitals.",
+      "specs": "Dimensions: 39\" x 24\" • Material: Birch & Maple Plywood"
+    },
+    {
+      "id": 5,
+      "title": "Hand-Carved Alpine Bear Figurine",
+      "category": "woodcarving",
+      "price": "GH₵ 1,350",
+      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=800&q=80",
+      "description": "Charming handcrafted black bear carved from seasoned linden wood, hand-painted and polished to perfection.",
+      "specs": "Height: 8\" • Material: Linden Wood • Hand-carved & finished"
+    },
+    {
+      "id": 6,
+      "title": "Custom Laser-Engraved Charcuterie Board",
+      "category": "laser",
+      "price": "GH₵ 950",
+      "image": "https://images.unsplash.com/photo-1507048331197-7d4ac70b11cf?auto=format&fit=crop&w=800&q=80",
+      "description": "Edge-grain acacia serving board engraved with custom botanical art or recipes. Perfect wedding or housewarming gift.",
+      "specs": "Dimensions: 16\" x 10\" • Material: Acacia Wood • Food-safe finish"
+    }
+  ]
+}
